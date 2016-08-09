@@ -1,0 +1,97 @@
+{
+  "name": "jxnblk/bikeshed",
+  "version": "0.1.4",
+  "libraries": {
+    "xv": "^1.1.10"
+  },
+  "title": "",
+  "branch": "",
+  "style": {
+    "name": "Future",
+    "componentSet": {
+      "nav": "nav/BasicNav",
+      "header": "header/BannerHeader",
+      "article": "article/BasicArticle",
+      "footer": "footer/BasicFooter"
+    },
+    "fontFamily": "\"Avenir Next\", Helvetica, sans-serif",
+    "heading": {
+      "fontWeight": 500,
+      "textTransform": "uppercase",
+      "letterSpacing": "0.2em"
+    },
+    "alternativeText": {
+      "textTransform": "uppercase",
+      "fontWeight": 400,
+      "letterSpacing": "0.2em",
+      "opacity": 0.75
+    },
+    "colors": {
+      "text": "#333",
+      "background": "#fff",
+      "primary": "#666",
+      "secondary": "#888",
+      "highlight": "#1f80ff",
+      "muted": "#f6f6f6",
+      "border": "#eee"
+    },
+    "layout": {
+      "centered": true,
+      "maxWidth": 1024,
+      "bannerHeight": "80vh"
+    }
+  },
+  "content": [
+    {
+      "component": "nav",
+      "links": [
+        {
+          "href": "https://github.com/jxnblk/bikeshed",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://npmjs.com/package/@jxnblk/bikeshed",
+          "text": "npm"
+        }
+      ]
+    },
+    {
+      "component": "header",
+      "heading": "bikeshed",
+      "subhead": "What color should we paint this thing?",
+      "children": [
+        {
+          "component": "ui/TweetButton",
+          "text": "bikeshed: What color should we paint this thing?",
+          "url": null
+        },
+        {
+          "component": "ui/GithubButton",
+          "user": "jxnblk",
+          "repo": "bikeshed"
+        }
+      ],
+      "text": "v1.0.0-beta.1"
+    },
+    {
+      "component": "article",
+      "metadata": {
+        "source": "github.readme"
+      },
+      "html": "\n\n<h2 id=\"features\">Features</h2>\n<ul>\n<li>Endless debate over the color of something that doesn&#x2019;t really matter</li>\n<li>Safely ignore the reactor core design, because who even knows</li>\n<li>Potential for last minute poop-and-swoop from key stakeholders</li>\n<li>Designed by committee, because everyone knows what they&#x2019;re doing</li>\n<li>Frequent updates and unnecessary changes</li>\n</ul>\n<h2 id=\"getting-started\">Getting Started</h2>\n<pre>npm install @jxnblk/bikeshed</pre><pre><span class=\"hljs-keyword\">const</span> bikeshed = <span class=\"hljs-built_in\">require</span>(<span class=\"hljs-string\">&apos;@jxnblk/bikeshed&apos;</span>)\n\n<span class=\"hljs-keyword\">const</span> color = bikeshed()\n<span class=\"hljs-comment\">// returns a random hex color string</span></pre><p>MIT License</p>\n"
+    },
+    {
+      "component": "footer",
+      "links": [
+        {
+          "href": "https://github.com/jxnblk/bikeshed",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://github.com/jxnblk",
+          "text": "jxnblk"
+        }
+      ]
+    }
+  ]
+}
