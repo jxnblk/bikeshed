@@ -1,0 +1,12 @@
+{
+  "name": "@jxnblk/bikeshed",
+  "version": "1.0.0-beta.1",
+  "description": "What color should we paint this thing?",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [],
+  "author": "Brent Jackson",
+  "license": "MIT"
+}
