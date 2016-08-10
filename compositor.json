@@ -7,32 +7,26 @@
   "title": "",
   "branch": "",
   "style": {
-    "name": "Brutalist",
+    "name": "Williamsburg",
     "componentSet": {
       "nav": "nav/BasicNav",
-      "header": "header/BasicHeader",
-      "article": "article/MarkdownArticle",
+      "header": "header/LightBannerHeader",
+      "article": "article/ReaderArticle",
       "footer": "footer/BasicFooter"
     },
-    "fontFamily": "Consolas, \"Liberation Mono\", Menlo, Courier, monospace",
-    "heading": {},
-    "typeScale": [
-      48,
-      32,
-      20,
-      18,
-      16,
-      14,
-      12
-    ],
+    "fontFamily": "Montserrat, sans-serif",
+    "heading": {
+      "fontWeight": 600,
+      "letterSpacing": "0.1em"
+    },
     "colors": {
-      "text": "#333",
+      "text": "#346",
       "background": "#fff",
-      "primary": "#666",
-      "secondary": "#888",
-      "highlight": "#1f80ff",
-      "muted": "#f6f6f6",
-      "border": "#eee"
+      "primary": "#0099e0",
+      "secondary": "#ab61ff",
+      "highlight": "#f7b",
+      "muted": "#fffab3",
+      "border": "#ccd"
     }
   },
   "content": [
