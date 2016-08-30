@@ -7,26 +7,38 @@
   "title": "",
   "branch": "",
   "style": {
-    "name": "Williamsburg",
+    "name": "Future",
     "componentSet": {
       "nav": "nav/BasicNav",
-      "header": "header/LightBannerHeader",
-      "article": "article/ReaderArticle",
+      "header": "header/BannerHeader",
+      "article": "article/BasicArticle",
       "footer": "footer/BasicFooter"
     },
-    "fontFamily": "Montserrat, sans-serif",
+    "fontFamily": "\"Avenir Next\", Helvetica, sans-serif",
     "heading": {
-      "fontWeight": 600,
-      "letterSpacing": "0.1em"
+      "fontWeight": 500,
+      "textTransform": "uppercase",
+      "letterSpacing": "0.2em"
+    },
+    "alternativeText": {
+      "textTransform": "uppercase",
+      "fontWeight": 400,
+      "letterSpacing": "0.2em",
+      "opacity": 0.75
     },
     "colors": {
-      "text": "#346",
+      "text": "#333",
       "background": "#fff",
-      "primary": "#0099e0",
-      "secondary": "#ab61ff",
-      "highlight": "#f7b",
-      "muted": "#fffab3",
-      "border": "#ccd"
+      "primary": "#666",
+      "secondary": "#888",
+      "highlight": "#1f80ff",
+      "muted": "#f6f6f6",
+      "border": "#eee"
+    },
+    "layout": {
+      "centered": true,
+      "maxWidth": 1024,
+      "bannerHeight": "80vh"
     }
   },
   "content": [
